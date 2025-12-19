@@ -1,0 +1,123 @@
+.about{
+background-image: url("./images/aboutbg.jpg");
+background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.vid {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    
+    
+    
+}
+
+
+.vid video{
+    width: 70%;
+}
+.vid p{
+    font-size: 3vh;
+    margin-left: 3vh;
+    color: white;
+    width: 70%;
+}
+.vid .p1{
+color: black;
+font-size: 4vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.mission{
+    margin-top: 4vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} 
+.goal h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission p{
+    width: 30%;
+
+    
+}
+.mission img{
+    margin-left: 10vh;
+}
+
+
+h1{
+    margin-left: 3vh;
+}
+.review{
+    margin-top: 5vh;
+   
+text-align: center;
+
+}
+.box{
+   
+    width: 40%;
+    height: 40vh;
+    background-color:white;
+    margin-left: 42vh;
+    text-align: center;
+    border-radius: 4vh;
+    
+    
+    
+}
+.box img{
+    margin-top: 2vh;
+    width: 20vh;
+    height: 20vh;
+
+}
+
+  
+@media screen and (max-width: 600px){
+    .about{
+        width: 51vh;
+    }
+   .vid .p1{
+    font-size: 3vh;
+   }
+    
+    .mission{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mission p{
+        width: 30vh;
+    }
+    .mission img{
+        width: 35vh;
+        border-radius:2vh ;
+        margin-right: 4vh;
+    }
+    .review .box{
+       margin-left: 13vh;
+       border-radius: 4vh;
+    }
+    .box img{
+    margin-top: 2vh;
+    width: 10vh;
+    height: 10vh;
+
+}
+}
+
